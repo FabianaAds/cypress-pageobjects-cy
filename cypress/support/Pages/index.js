@@ -11,7 +11,7 @@ class produto {
     cy.get(PRODUTO.preco).click()
     cy.get(PRODUTO.Tamanho).click()
     cy.get(PRODUTO.corrosa).click()
-    cy.get(PRODUTO.adicionar).click({ multiple: true })
+    cy.get(PRODUTO.adicionar, {timeout: 10000}).click({ multiple: true })
 
   }
 
