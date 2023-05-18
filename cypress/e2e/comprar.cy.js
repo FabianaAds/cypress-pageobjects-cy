@@ -5,7 +5,6 @@
 
     before(() => {
         cy.visit('https://magento.softwaretestingboard.com/')
-        
     });
     
       it('Deve escolher um produto, adiciona-lo ao carrinho e abrir o carrinho.', () => {
@@ -17,3 +16,5 @@
     
 
  })
+
+ 
